@@ -1,0 +1,19 @@
+# Data dictionary
+
+`data/processed/organ_detection_summary.csv` has 25 rows: 12 abstract readings, 12 corresponding report-results readings and one conflicting report-discussion reading. Only `published_abstract` rows drive the main figures.
+
+| Field | Definition |
+|---|---|
+| `pathogen` | Reported genus-level organism group; identification remains presumptive without independent confirmation. |
+| `anatomical_site` | Skin, Mouth, Gills, or Gut. |
+| `positive_count` | Integer fish-site observations reported positive for the organism group. |
+| `total_count` | Integer reported denominator for that source reading. |
+| `detection_proportion` | Computed `positive_count / total_count`. |
+| `detection_percentage` | Computed `100 * detection_proportion`; full precision in CSV. |
+| `source_document` | Original PDF filename. |
+| `source_page` | PDF page and, where applicable, printed page. |
+| `source_table_or_section` | Exact source section or figure. |
+| `verification_status` | `published_abstract`, `report_results`, or `conflicting_report_text`. |
+| `discrepancy_notes` | Cross-source warning; blank means none identified. |
+
+Each row is an aggregate *detection frequency*, not a culture concentration, bacterial load, unique fish total, or independent specimen record. The 12 site/organism observations share fish and cannot be treated as 324 independent specimens. The CSV is rebuilt with `python -m scripts.build_data`.

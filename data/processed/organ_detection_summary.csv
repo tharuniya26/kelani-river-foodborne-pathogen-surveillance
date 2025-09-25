@@ -1,0 +1,26 @@
+pathogen,anatomical_site,positive_count,total_count,detection_proportion,detection_percentage,source_document,source_page,source_table_or_section,verification_status,discrepancy_notes
+Staphylococcus spp.,Skin,27,27,1.0,100.0,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Staphylococcus spp.,Skin,27,27,1.0,100.0,Research Project Report 12th Nov 2025.pdf,PDF 15; printed 15,Results 5.1; Figure 9,report_results,
+Staphylococcus spp.,Mouth,27,27,1.0,100.0,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Staphylococcus spp.,Mouth,27,27,1.0,100.0,Research Project Report 12th Nov 2025.pdf,PDF 15; printed 15,Results 5.1; Figure 9,report_results,
+Staphylococcus spp.,Gills,15,27,0.5555555555555556,55.55555555555556,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Staphylococcus spp.,Gills,15,27,0.5555555555555556,55.55555555555556,Research Project Report 12th Nov 2025.pdf,PDF 15; printed 15,Results 5.1; Figure 9,report_results,
+Staphylococcus spp.,Gut,22,27,0.8148148148148148,81.48148148148148,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p20 prints 22/25 but 81.48%.
+Staphylococcus spp.,Gut,22,27,0.8148148148148148,81.48148148148148,Research Project Report 12th Nov 2025.pdf,PDF 15; printed 15,Results 5.1; Figure 9,report_results,Report discussion p20 prints 22/25 but 81.48%.
+Salmonella spp.,Skin,11,27,0.4074074074074074,40.74074074074074,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Salmonella spp.,Skin,11,27,0.4074074074074074,40.74074074074074,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 10,report_results,
+Salmonella spp.,Mouth,9,27,0.3333333333333333,33.333333333333336,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Salmonella spp.,Mouth,9,27,0.3333333333333333,33.333333333333336,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 10,report_results,
+Salmonella spp.,Gills,10,27,0.37037037037037035,37.03703703703704,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Salmonella spp.,Gills,10,27,0.37037037037037035,37.03703703703704,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 10,report_results,
+Salmonella spp.,Gut,4,27,0.14814814814814814,14.814814814814815,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Salmonella spp.,Gut,4,27,0.14814814814814814,14.814814814814815,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 10,report_results,
+Shigella spp.,Skin,9,27,0.3333333333333333,33.333333333333336,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Shigella spp.,Skin,9,27,0.3333333333333333,33.333333333333336,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 11,report_results,
+Shigella spp.,Mouth,15,27,0.5555555555555556,55.55555555555556,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,
+Shigella spp.,Mouth,15,27,0.5555555555555556,55.55555555555556,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 11,report_results,
+Shigella spp.,Gills,11,27,0.4074074074074074,40.74074074074074,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p21 swaps count-percentage pairings for gills and gut.
+Shigella spp.,Gills,11,27,0.4074074074074074,40.74074074074074,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 11,report_results,Report discussion p21 swaps count-percentage pairings for gills and gut.
+Shigella spp.,Gut,5,27,0.18518518518518517,18.51851851851852,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p21 swaps count-percentage pairings for gills and gut.
+Shigella spp.,Gut,5,27,0.18518518518518517,18.51851851851852,Research Project Report 12th Nov 2025.pdf,PDF 16; printed 16,Results 5.1; Figure 11,report_results,Report discussion p21 swaps count-percentage pairings for gills and gut.
+Staphylococcus spp.,Gut,22,25,0.88,88.0,Research Project Report 12th Nov 2025.pdf,PDF 20; printed 20,Discussion 6.0,conflicting_report_text,"Printed 81.48% matches 22/27, not 22/25."

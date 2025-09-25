@@ -1,0 +1,7 @@
+# Statistical interpretation
+
+For each of the 12 published marginal proportions, `src/statistical_analysis.py` computes a two-sided 95% Wilson score interval with normal quantile 1.95996. These intervals summarize binomial uncertainty for each single organism-site detection proportion, conditional on treating the 27 sampled fish as the relevant observations and assuming comparable, independent fish-level sampling. They are descriptive marginal intervals, not intervals for paired site differences or the sampled river basin as a whole. At 27/27, the upper bound is 100% and the lower bound is below 100%.
+
+The same fish contributed multiple anatomical sites. Cochran's Q, McNemar, GEE and mixed logistic models require linked specimen-level outcomes and design details. Marginal counts alone cannot identify within-fish concordance. Therefore no new confirmatory p-values are calculated. Published p-values (<0.001, 0.17, 0.041) are quoted as originally reported but cannot be reproduced or validated from the provided material. An independent-sample chi-square or Fisher test on these margins would ignore pairing.
+
+Detecting a presumptive genus by culture and biochemical pattern does not establish species, virulence, toxin production, infection in fish or humans, contamination source, or clinical risk. Sampling through fishermen and missing specimen metadata limit generalization. The source's word “prevalence” is rendered here as detection proportion because the denominator is fish-site samples and no population sampling frame is supplied.

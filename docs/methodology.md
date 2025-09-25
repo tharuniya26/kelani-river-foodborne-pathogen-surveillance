@@ -1,0 +1,7 @@
+# Methodology and contribution boundaries
+
+The final project report p13 documents fish samples from the Kelani River, sample collection through local fishermen in the abstract, skin and mouth swabs, gut and gill tissue homogenization, saline suspensions, ten-fold dilutions, mannitol salt agar for presumptive *Staphylococcus*, buffered peptone water and selective enrichment followed by Salmonella-Shigella agar for presumptive *Salmonella* and *Shigella*. It documents Gram stain, microscopy, catalase and urease for presumptive *Staphylococcus*, and Gram stain, indole, urease and Kligler iron agar for presumptive enteric organisms. The report pp14 and 17–19 include photographs of culture and tests.
+
+The proposal p9 additionally planned XLD, coagulase, citrate, TSI and IMViC, but the final methods do not substantiate all of these as completed. The report's author describes involvement in the project as a whole; the documents do not attribute every individual procedure to one person. The README therefore uses “the study documented” for bench methods and “Tharuniya authored/submitted the project report” for documented individual work.
+
+The computational extension digitizes aggregate readings, validates arithmetic, calculates descriptive percentages and marginal Wilson intervals, produces figures, and documents uncertainty. It did not collect new samples or confirm the original isolates.

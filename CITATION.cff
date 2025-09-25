@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this software separately from the original five-author conference abstract."
+type: software
+title: "Kelani River fish microbiology: aggregate-data computational reanalysis"
+authors:
+  - family-names: Anpalakan
+    given-names: Tharuniya
+version: 0.1.0
+date-released: 2026-10-16
+license: MIT
+abstract: "Source-attributed descriptive reanalysis and visualization of previously reported aggregate microbiological detections."

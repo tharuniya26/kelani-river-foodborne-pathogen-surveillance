@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.research_work/
+*.pyc
+# Source PDFs and their original embedded images require redistribution review.
+/*.pdf
+assets/wet_lab/*.jpg
+assets/wet_lab/*.jpeg
+assets/wet_lab/*.png
+publications/*.pdf
+original_documents/*.pdf

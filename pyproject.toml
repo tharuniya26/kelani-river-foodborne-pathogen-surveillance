@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kelani-fish-surveillance-reanalysis"
+version = "0.1.0"
+description = "Reproducible analysis of published aggregate fish microbiology observations"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<4", "numpy>=2,<3", "scipy>=1.13,<2", "matplotlib>=3.8,<4"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
