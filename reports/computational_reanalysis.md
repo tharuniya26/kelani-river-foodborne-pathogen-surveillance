@@ -2,7 +2,7 @@
 
 **Prepared by:** Tharuniya Anpalakan, 16 October 2026. Computational extension of a University of Sri Jayewardenepura research project; not a second experimental publication.
 
-**Original conference authors:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. The supplied abstract is printed as PP–137 on page 189. Its complete venue, year and peer-review status remain unverified. The university report names Senior Professor Pathamalal M. Manage as principal supervisor and thanks Mr Anjana Kelum.
+**Original conference authors:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. The supplied abstract is printed as PP–137 on page 189. The author identifies it with the 12th International Conference on Multidisciplinary Approaches (iCMA 2026), Faculty of Graduate Studies, University of Sri Jayewardenepura. Exact proceedings metadata and peer-review status remain unverified; see publications/README.md for the evidence. The university report names Senior Professor Pathamalal M. Manage as principal supervisor and thanks Mr Anjana Kelum.
 
 ## Abstract
 
@@ -40,7 +40,7 @@ The study has 27 fish, uncertain sampling frame, no released linked records, con
 
 ## References and reproducibility
 
-1. Supplied conference abstract: Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. Printed PP–137, p189. Full bibliographic details unverified.
+1. Supplied conference abstract: Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. 12th International Conference on Multidisciplinary Approaches (iCMA 2026); 2026. PP–137, p189. Conference association confirmed by the author. http://graduate.sjp.ac.lk/icma/icma-2026
 2. Supplied university report: Tharuniya Anpalakan, project report, cover submission date 15 November 2025.
 3. Mahagamage MGYL, Pathirage MVSC, Manage PM. Contamination Status of Salmonella spp., Shigella spp. and Campylobacter spp. in Surface and Groundwater of the Kelani River Basin, Sri Lanka. *Water*. 2020;12:2187. https://www.mdpi.com/2073-4441/12/8/2187
 4. FDA. Bacteriological Analytical Manual, Chapter 5: Salmonella. https://www.fda.gov/food/laboratory-methods-food/bam-chapter-5-salmonella

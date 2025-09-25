@@ -18,7 +18,7 @@ The software recalculates all 12 detection percentages from the reported integer
 1. Report discussion p20 prints `22/25 (81.48%)`; report results p15 and abstract p189 report `22/27 (81.48%)`. A literal 22/25 is 88.00%.
 2. Report discussion p21 pairs Shigella gill and gut counts with each other's percentages. Report results p16 and abstract p189 agree on 11/27 gills and 5/27 gut.
 3. Report methods p13 names fish taxa that differ from the four taxa listed in the abstract; authentic specimen-level records are needed to reconcile species composition and sample inclusion.
-4. The abstract page shows PP–137 and p189 but does not verify the conference edition, date/year, proceedings title, publisher, DOI or review status. A complete citation must await authoritative bibliographic evidence.
+4. The author identifies PP–137, p189 with iCMA 2026. University sources corroborate the 12th conference and 6–7 April 2026 dates. Exact proceedings title, release date, DOI/ISBN and review status remain unverified. [Publication evidence](../publications/README.md) records the citation basis.
 5. The PDFs do not document which named researcher personally performed each specific wet-lab step. Tharuniya's documented project-report authorship is clear; further personal technique claims require confirmation or lab records.
 6. Source-PDF and embedded-photo redistribution rights require the author/institution or publisher's decision. The eight gallery images are tracked for private review, so their links resolve in a clone. They must not be released publicly until rights are confirmed. The three original PDFs remain excluded and unchanged.
 

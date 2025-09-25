@@ -7,7 +7,7 @@ This portfolio connects a **documented experimental microbiology project** with 
 | Research at a glance | |
 |---|---|
 | Experimental study | Fish sampling, culture, microscopy and biochemical observations documented in the university report. |
-| Publication | Five-author conference abstract, printed identifier **PP–137**, page **189**. |
+| Publication | Five-author abstract at [iCMA 2026](http://graduate.sjp.ac.lk/icma/icma-2026), printed identifier **PP–137**, page **189**. |
 | Computational extension | Source-attributed data, Python validation and statistics, six figures, five executed notebooks and a reanalysis report. |
 | Evidence boundary | Published p-values and individual bench roles cannot be independently verified from the supplied aggregate records. |
 
@@ -21,7 +21,7 @@ The original research began in 2025; the computational portfolio was created in 
 
 The supplied abstract is titled **“Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.”** Its printed author order and affiliation markers are **Anpalakan T; Meddage AKMMK¹,²; Liyanage GY²,³; Idroos FS²; Manage PM²***. The printed affiliations are ¹ Faculty of Graduate Studies, University of Sri Jayewardenepura; ² Centre for Water Quality and Algae Research, Department of Zoology, University of Sri Jayewardenepura; and ³ Faculty of Urban Science and Aquatic Bioresources, University of Sri Jayewardenepura. The university proposal and report also identify the Department of Zoology, Faculty of Applied Sciences.
 
-**Tharuniya Anpalakan** is the named candidate and author of the university project report. The report identifies **Senior Professor Pathamalal M. Manage** as principal supervisor and acknowledges **Mr Anjana Kelum** for guidance. The abstract has five authors; this repository preserves their credit and attributes the later computational extension separately to Tharuniya. The complete conference venue, proceedings title, publication year and peer-review status are not verified by the supplied page. [Document inventory](docs/source_inventory.md)
+**Tharuniya Anpalakan** is the named candidate and author of the university project report. The report identifies **Senior Professor Pathamalal M. Manage** as principal supervisor and acknowledges **Mr Anjana Kelum** for guidance. The abstract has five authors; this repository preserves their credit and attributes the later computational extension separately to Tharuniya. The author identifies this abstract with the **12th International Conference on Multidisciplinary Approaches (iCMA 2026)**, Faculty of Graduate Studies, University of Sri Jayewardenepura. University sources corroborate the event on **6–7 April 2026**. [Conference page](http://graduate.sjp.ac.lk/icma/icma-2026) · [Publication evidence](publications/README.md). Exact proceedings metadata and peer-review status remain unverified. [Document inventory](docs/source_inventory.md)
 
 ## Experimental Research and Hands-On Wet-Lab Experience
 
@@ -149,7 +149,7 @@ This generates the numerical tables and figures from validated data, compiles th
 
 ## Citation, rights and acknowledgements
 
-**Original abstract:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. “Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.” Supplied abstract, PP–137, p. 189. A complete venue/year citation needs verification.
+**Original abstract:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. “Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.” 12th International Conference on Multidisciplinary Approaches (iCMA 2026). Faculty of Graduate Studies, University of Sri Jayewardenepura; 2026. Abstract PP–137, p. 189. [Conference page](http://graduate.sjp.ac.lk/icma/icma-2026) · [Citation evidence](publications/README.md).
 
 **New software and report:** Tharuniya Anpalakan, *Kelani River fish microbiology: aggregate-data computational reanalysis*, version 0.1.0 (2026). [Software citation metadata](CITATION.cff). The MIT license applies to new Python software, not the original publication or photographs.
 
