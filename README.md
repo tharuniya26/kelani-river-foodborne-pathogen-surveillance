@@ -13,6 +13,8 @@ This portfolio connects a **documented experimental microbiology project** with 
 
 **Explore:** [Laboratory gallery](#original-laboratory-image-gallery) · [Computational figures](#computational-analysis-and-figures) · [Results](#published-observations) · [Reproduce](#reproduce-the-analysis) · [Project audit](docs/project_audit.md)
 
+The original research began in 2025; the computational portfolio was created in 2026. [Verified research and repository timeline](docs/research_timeline.md)
+
 ## Original research and publication credit
 
 The supplied abstract is titled **“Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.”** Its printed author order and affiliation markers are **Anpalakan T; Meddage AKMMK¹,²; Liyanage GY²,³; Idroos FS²; Manage PM²***. The printed affiliations are ¹ Faculty of Graduate Studies, University of Sri Jayewardenepura; ² Centre for Water Quality and Algae Research, Department of Zoology, University of Sri Jayewardenepura; and ³ Faculty of Urban Science and Aquatic Bioresources, University of Sri Jayewardenepura. The university proposal and report also identify the Department of Zoology, Faculty of Applied Sciences.
@@ -25,7 +27,7 @@ The final report documents fish obtained through local fishermen; skin and mouth
 
 ### Original laboratory image gallery
 
-These are **unaltered embedded photographs from the university report**. Page and figure numbers refer to the original document. Eight selected images are tracked in this *local* repository so the README gallery renders during review. **Confirm photograph redistribution rights before any public push.** The original PDFs remain excluded from Git. [Full 31-image inventory](assets/wet_lab/image_inventory.csv)
+These are **unaltered embedded photographs from the university report**. Page and figure numbers refer to the original document. Eight selected images are tracked for **private review** so the README gallery renders. **Confirm photograph redistribution rights before any public release.** The original PDFs remain excluded from Git. [Full 31-image inventory](assets/wet_lab/image_inventory.csv)
 
 | Culture: mannitol salt agar | Culture: Salmonella-Shigella agar |
 |---|---|
@@ -125,4 +127,4 @@ python -m scripts.build_report
 
 **New software and report:** Tharuniya Anpalakan, *Kelani River fish microbiology: aggregate-data computational reanalysis*, version 0.1.0 (2026). [Software citation metadata](CITATION.cff). The MIT license applies to new Python software, not the original publication or photographs.
 
-The university proposal, final report and abstract remain unchanged locally and outside Git. The eight selected photographs are tracked **for local review only**; obtain redistribution clearance before any public push. The original report contains private identifiers requiring review before release. The project acknowledges Senior Professor Pathamalal M. Manage, Mr Anjana Kelum, the Department of Zoology, Faculty of Applied Sciences, the Centre for Water Quality and Algae Research, and all original coauthors. AI assistance supported code and editorial drafting. [Project audit and release conditions](docs/project_audit.md)
+The university proposal, final report and abstract remain unchanged locally and outside Git. The eight selected photographs are tracked **for private review only**; obtain redistribution clearance before any public release. The original report contains private identifiers requiring review before release. The project acknowledges Senior Professor Pathamalal M. Manage, Mr Anjana Kelum, the Department of Zoology, Faculty of Applied Sciences, the Centre for Water Quality and Algae Research, and all original coauthors. AI assistance supported code and editorial drafting. [Project audit and release conditions](docs/project_audit.md)

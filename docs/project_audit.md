@@ -19,7 +19,7 @@ The software recalculates all 12 detection percentages from the reported integer
 3. Report methods p13 names fish taxa that differ from the four taxa listed in the abstract; authentic specimen-level records are needed to reconcile species composition and sample inclusion.
 4. The abstract page shows PP–137 and p189 but does not verify the conference edition, date/year, proceedings title, publisher, DOI or review status. A complete citation must await authoritative bibliographic evidence.
 5. The PDFs do not document which named researcher personally performed each specific wet-lab step. Tharuniya's documented project-report authorship is clear; further personal technique claims require confirmation or lab records.
-6. Source-PDF and embedded-photo redistribution rights require the author/institution or publisher's decision. The eight gallery images are now tracked for local review, so their links resolve in a clone. They must not be pushed publicly until rights are confirmed. The three original PDFs remain excluded and unchanged.
+6. Source-PDF and embedded-photo redistribution rights require the author/institution or publisher's decision. The eight gallery images are tracked for private review, so their links resolve in a clone. They must not be released publicly until rights are confirmed. The three original PDFs remain excluded and unchanged.
 
 ## Privacy and rights gate for public release
 
@@ -35,4 +35,4 @@ The original PDFs are excluded from Git. Confirm rights for the five-author abst
 
 ## Readiness
 
-The computational materials are locally reproducible. Public GitHub publication remains conditional on image/PDF rights review, private-identifier review, confirmation of the conference citation and personal wet-lab contribution claims. The repository is prepared for that review and has not been pushed.
+The computational materials are locally reproducible. Public GitHub publication remains conditional on image/PDF rights review, private-identifier review, confirmation of the conference citation and personal wet-lab contribution claims. A private repository may be used for review; it must not be made public until those checks are complete. Git commit dates reflect actual repository work, while original study dates are documented in [research timeline](research_timeline.md).
