@@ -13,4 +13,4 @@ python -m scripts.build_notebooks
 python -m scripts.build_report
 ```
 
-Run `python -m scripts.extract_wet_lab` only when the original report PDF is present locally. This extracts embedded images to a Git-ignored location. See `docs/source_reconciliation.md` before interpreting any aggregate contrast. `python -m scripts.build_notebooks` executes five notebooks and saves outputs using the same `src` functions.
+Run `python -m scripts.extract_wet_lab` only when the original report PDF is present locally. This extracts embedded images; eight gallery selections are tracked locally in Git and the remaining images are ignored. Confirm photo rights before a public push. See `docs/source_reconciliation.md` before interpreting any aggregate contrast. `python -m scripts.build_notebooks` executes five notebooks and saves outputs using the same `src` functions.

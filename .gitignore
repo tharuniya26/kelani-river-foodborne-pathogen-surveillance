@@ -9,5 +9,14 @@ __pycache__/
 assets/wet_lab/*.jpg
 assets/wet_lab/*.jpeg
 assets/wet_lab/*.png
+# Selected original figures for the local README review (do not publish until rights are cleared).
+!assets/wet_lab/report_p14_fig02.jpeg
+!assets/wet_lab/report_p14_fig04.jpeg
+!assets/wet_lab/report_p14_fig06.jpeg
+!assets/wet_lab/report_p17_fig13.jpeg
+!assets/wet_lab/report_p17_fig19.jpeg
+!assets/wet_lab/report_p18_fig27.jpeg
+!assets/wet_lab/report_p19_fig29.jpeg
+!assets/wet_lab/report_p19_fig35.jpeg
 publications/*.pdf
 original_documents/*.pdf

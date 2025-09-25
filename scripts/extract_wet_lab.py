@@ -6,6 +6,7 @@ import pymupdf as fitz
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "Research Project Report 12th Nov 2025.pdf"
 OUT = ROOT / "assets/wet_lab"
+SELECTED_FOR_README = {2, 4, 6, 13, 19, 27, 29, 35}
 # The report's figure-list order matches the embedded image order on these pages.
 CAPTIONS = {
     14: [
@@ -64,9 +65,11 @@ def main():
             ext = extracted["ext"]
             filename = f"report_p{page_number:02d}_fig{figure:02d}.{ext}"
             (OUT / filename).write_bytes(extracted["image"])
+            rights = ("Pending rights review; tracked in local Git for README preview"
+                      if figure in SELECTED_FOR_README else "Pending rights review; local file excluded from Git")
             records.append([filename, SOURCE.name, page_number, figure, caption,
                             "Original university project report; attribution: Tharuniya Anpalakan and study team",
-                            "Pending rights review; local only", extracted["width"], extracted["height"]])
+                            rights, extracted["width"], extracted["height"]])
     with (OUT / "image_inventory.csv").open("w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["filename", "source_pdf", "pdf_page", "figure_number", "source_caption_summary",

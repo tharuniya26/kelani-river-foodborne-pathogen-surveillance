@@ -1,88 +1,110 @@
-# Kelani River fish microbiology: published research and computational reanalysis
+# Microbiological surveillance of Kelani River fish
 
-**Experimental biomedical research, followed by a reproducible analysis of published aggregate findings.** The original study examined culture-based detection of presumptive *Staphylococcus*, *Salmonella* and *Shigella* across skin, mouth, gills and gut samples from 27 fish associated with Sri Lanka's Kelani River. This repository digitizes the reported counts, reconciles source discrepancies, calculates detection percentages and marginal uncertainty intervals, and generates new figures. It does not introduce new specimens or claim to reproduce the original inferential tests.
+### Original biomedical research · authentic laboratory photographs · reproducible Python reanalysis
 
-## Original research and publication
+This portfolio connects a **documented experimental microbiology project** with a **new computational analysis** of its published aggregate findings. The original study examined presumptive *Staphylococcus*, *Salmonella* and *Shigella* detection at four anatomical sites in 27 fish associated with Sri Lanka's Kelani River. The new code validates reported counts, calculates detection proportions and uncertainty intervals, and creates figures. No new specimens or specimen-level results were created here.
 
-The supplied one-page abstract is titled **“Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective”**, printed as **PP–137, p. 189**. Its author line reads **Anpalakan T; Meddage AKMMK¹,²; Liyanage GY²,³; Idroos FS²; Manage PM²***. The printed affiliation mapping is: ¹ Faculty of Graduate Studies, University of Sri Jayewardenepura; ² Centre for Water Quality and Algae Research, Department of Zoology, University of Sri Jayewardenepura; ³ Faculty of Urban Science and Aquatic Bioresources, University of Sri Jayewardenepura. The original university proposal and report also name the Department of Zoology, Faculty of Applied Sciences. The complete conference venue, proceedings title, publication year and peer-review status remain unverified from the supplied page; no DOI is asserted. [Source inventory](docs/source_inventory.md).
-
-Tharuniya Anpalakan is the named candidate and author of the university project report. The five named authors receive full credit for the conference abstract. The final report names **Senior Professor Pathamalal M. Manage** as principal supervisor and thanks **Mr Anjana Kelum** for guidance. This computational extension is attributed separately to Tharuniya Anpalakan; it does not revise the original publication's authorship.
-
-### Experimental Research and Hands-On Wet-Lab Experience
-
-The university report records a complete experimental workflow: fish obtained through local fishermen; skin and mouth swabs and gut and gill tissue sampling; sterile saline suspensions and dilutions; enrichment and selective culture; observation of colony appearance; Gram staining, microscopy and biochemical tests; and reporting of 27 fish-level detection summaries. Photographs on report pp14 and 17–19 show the culture, stain and test stages. Tharuniya is documented as the candidate who authored/submitted the report and acknowledged the laboratory support. The PDFs do not identify the operator of each photographed procedure, so individual bench techniques are presented as **study-documented team work**, pending confirmation of personal roles. The publication is a later five-author summary of the experimental work.
-
-**Original laboratory image gallery (local source review; redistribution pending).** The following are original embedded images extracted without pixel editing from the report. They are excluded from Git until the rights holder authorizes redistribution. Relative links work in this local workspace; they will require permission and inclusion before public GitHub rendering. [Full image inventory](assets/wet_lab/image_inventory.csv).
-
-| Study stage | Original figure and caption |
+| Research at a glance | |
 |---|---|
-| Selective culture | ![Mannitol salt agar after incubation, presumptive Staphylococcus workflow](assets/wet_lab/report_p14_fig02.jpeg)<br>Report p14, Figure 2: mannitol salt agar after incubation. |
-| Selective culture | ![Salmonella-Shigella agar after incubation, presumptive Salmonella workflow](assets/wet_lab/report_p14_fig04.jpeg)<br>Report p14, Figure 4: Salmonella-Shigella agar after incubation. |
-| Microscopy | ![Microscopy of suspected Staphylococcus isolate](assets/wet_lab/report_p17_fig13.jpeg)<br>Report p17, Figure 13: microscopic field of a suspected *Staphylococcus* isolate. |
-| Biochemical test | ![Kligler iron agar after incubation in Salmonella workflow](assets/wet_lab/report_p18_fig27.jpeg)<br>Report p18, Figure 27: Kligler iron agar after incubation of a suspected *Salmonella* isolate. |
+| Experimental study | Fish sampling, culture, microscopy and biochemical observations documented in the university report. |
+| Publication | Five-author conference abstract, printed identifier **PP–137**, page **189**. |
+| Computational extension | Source-attributed data, Python validation and statistics, six figures, five executed notebooks and a reanalysis report. |
+| Evidence boundary | Published p-values and individual bench roles cannot be independently verified from the supplied aggregate records. |
 
-No original field collection photograph or fish anatomical sampling photograph was present in the supplied PDFs. The gallery shows documented procedures, not independent molecular or species-level confirmation.
+**Explore:** [Laboratory gallery](#original-laboratory-image-gallery) · [Computational figures](#computational-analysis-and-figures) · [Results](#published-observations) · [Reproduce](#reproduce-the-analysis) · [Project audit](docs/project_audit.md)
+
+## Original research and publication credit
+
+The supplied abstract is titled **“Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.”** Its printed author order and affiliation markers are **Anpalakan T; Meddage AKMMK¹,²; Liyanage GY²,³; Idroos FS²; Manage PM²***. The printed affiliations are ¹ Faculty of Graduate Studies, University of Sri Jayewardenepura; ² Centre for Water Quality and Algae Research, Department of Zoology, University of Sri Jayewardenepura; and ³ Faculty of Urban Science and Aquatic Bioresources, University of Sri Jayewardenepura. The university proposal and report also identify the Department of Zoology, Faculty of Applied Sciences.
+
+**Tharuniya Anpalakan** is the named candidate and author of the university project report. The report identifies **Senior Professor Pathamalal M. Manage** as principal supervisor and acknowledges **Mr Anjana Kelum** for guidance. The abstract has five authors; this repository preserves their credit and attributes the later computational extension separately to Tharuniya. The complete conference venue, proceedings title, publication year and peer-review status are not verified by the supplied page. [Document inventory](docs/source_inventory.md)
+
+## Experimental Research and Hands-On Wet-Lab Experience
+
+The final report documents fish obtained through local fishermen; skin and mouth swabs; gill and gut tissue sampling; sterile saline suspensions and dilutions; enrichment and selective culture; Gram staining, microscopy and biochemical observations; and research reporting. Original photographs on report pages 14 and 17–19 show the laboratory stages. The PDFs do not identify who performed each photographed procedure, so the techniques below are presented as **study-documented team work**, with individual roles pending confirmation.
+
+### Original laboratory image gallery
+
+These are **unaltered embedded photographs from the university report**. Page and figure numbers refer to the original document. Eight selected images are tracked in this *local* repository so the README gallery renders during review. **Confirm photograph redistribution rights before any public push.** The original PDFs remain excluded from Git. [Full 31-image inventory](assets/wet_lab/image_inventory.csv)
+
+| Culture: mannitol salt agar | Culture: Salmonella-Shigella agar |
+|---|---|
+| <img src="assets/wet_lab/report_p14_fig02.jpeg" alt="Mannitol salt agar plate after incubation" width="300"><br>**Report p14, Fig. 2.** After incubation in the presumptive *Staphylococcus* workflow. | <img src="assets/wet_lab/report_p14_fig04.jpeg" alt="Salmonella-Shigella agar plate after incubation" width="300"><br>**Report p14, Fig. 4.** After incubation in the presumptive *Salmonella* workflow. |
+| <img src="assets/wet_lab/report_p14_fig06.jpeg" alt="Salmonella-Shigella agar plate in Shigella workflow" width="300"><br>**Report p14, Fig. 6.** After incubation in the presumptive *Shigella* workflow. | <img src="assets/wet_lab/report_p17_fig19.jpeg" alt="Mannitol salt agar plate with yellow colonies" width="300"><br>**Report p17, Fig. 19.** Mannitol salt agar shown with the biochemical observations. |
+
+| Microscopy | Biochemical tests |
+|---|---|
+| <img src="assets/wet_lab/report_p17_fig13.jpeg" alt="Microscopic field from suspected Staphylococcus isolate" width="300"><br>**Report p17, Fig. 13.** Suspected *Staphylococcus* microscopic field. | <img src="assets/wet_lab/report_p18_fig27.jpeg" alt="Kligler iron agar tube after incubation" width="300"><br>**Report p18, Fig. 27.** Kligler iron agar after incubation in the presumptive *Salmonella* workflow. |
+| <img src="assets/wet_lab/report_p19_fig29.jpeg" alt="Microscopic field from suspected Shigella isolate" width="300"><br>**Report p19, Fig. 29.** Suspected *Shigella* microscopic field. | <img src="assets/wet_lab/report_p19_fig35.jpeg" alt="Kligler iron agar in Shigella workflow" width="300"><br>**Report p19, Fig. 35.** Kligler iron agar after incubation in the presumptive *Shigella* workflow. |
+
+No field-collection or fish-anatomical-sampling photographs were present in the supplied PDFs. Colony appearance and biochemical reactions document reported observations; they do not independently verify species, virulence or molecular identity.
 
 ### Experimental Techniques and Research Competencies
 
-| Evidence level | Technique and purpose |
-|---|---|
-| Study documented; individual operator unverified | Fish collection and aseptic anatomical sampling to compare environmental contact surfaces and gut material. |
-| Study documented; individual operator unverified | Saline suspensions, dilutions, enrichment and selective media to recover presumptive target organisms. |
-| Study documented and photographed; individual operator unverified | Gram stain, microscopy, catalase, urease, indole and Kligler iron agar observations to characterize isolates. |
-| Directly documented contribution | Tharuniya prepared the named university research project report and communicated the findings in a coauthored conference abstract. |
-| New computational contribution | Source transcription, data validation, Wilson intervals, reproducible Python charts and report preparation. |
+| Study-documented technique | Scientific purpose | Attribution boundary |
+|---|---|---|
+| Fish collection and skin, mouth, gill and gut sampling | Compare recovery across environmental contact sites and gut material. | Operator for each specimen unrecorded. |
+| Saline suspensions, dilutions, enrichment and selective media | Recover presumptive target isolates. | Report method p13; culture images p14. |
+| Gram stain, microscopy, catalase, urease, indole and Kligler iron agar | Characterize isolates with morphology and reaction patterns. | Test images pp17–19; individual operator unrecorded. |
+| Research writing and dissemination | Record and communicate methods, observations and conclusions. | Tharuniya is the report's named candidate; the abstract has five authors. |
 
-The proposal lists some additional planned tests; [the methods audit](docs/methodology.md) separates these from procedures documented in the final report. The genus labels are reported findings from the study, with the identification limits described below.
+The proposal lists additional **planned** procedures that the final report does not clearly document as completed. [Method and contribution boundaries](docs/methodology.md)
 
-### Experimental-to-computational workflow
+## From wet lab to computational lab
 
 ```mermaid
 flowchart LR
-    A[Fish sampling] --> B[Laboratory processing]
+    A[Fish collection] --> B[Anatomical sampling]
     B --> C[Culture and enrichment]
     C --> D[Presumptive identification]
     D --> E[Experimental observations]
     E --> F[Published aggregate counts]
-    F --> G[Structured dataset]
+    F --> G[Validated dataset]
     G --> H[Python analysis]
-    H --> I[Statistical interpretation]
-    I --> J[Computational reanalysis report]
+    H --> I[Figures and interpretation]
 ```
 
-Steps through aggregate observations belong to the original experimental study. Dataset structuring, new Python analysis, Wilson intervals and this computational report were added for the repository. The original conference abstract published the aggregate findings. [Detailed method boundaries](docs/methodology.md).
+The first six stages belong to the original experimental research and publication. Dataset validation, new Python analyses, Wilson intervals and this portfolio's figures and report are later additions.
 
-## Research question and data
+| Computational skill | Reproducible evidence |
+|---|---|
+| Source transcription and provenance | [Source-attributed CSV](data/processed/organ_detection_summary.csv), [builder](scripts/build_data.py), [reconciliation](docs/source_reconciliation.md) |
+| Data quality checks | [Validation module](src/data_processing.py), [automated tests](tests/test_analysis.py) |
+| Descriptive analysis and uncertainty | [Summary functions](src/descriptive_analysis.py), [Wilson intervals](src/statistical_analysis.py) |
+| Scientific visualization | [Figure generator](src/visualization.py), [figure captions](docs/figure_captions.md) |
+| Reproducible reporting | [Five executed notebooks](notebooks/), [computational reanalysis PDF](reports/computational_reanalysis.pdf), [editable source](reports/computational_reanalysis.md) |
 
-How do the **reported detection frequencies** vary across fish anatomical sites, and what can be concluded from aggregate marginals? The published abstract lists *Oreochromis mossambicus*, *O. niloticus*, *Labeo rohita* and *Heteropneustes fossilis*, but it gives no fish-by-species/site records. The final report's species list differs; see [reconciliation](docs/source_reconciliation.md). No specimen-level dataset or site map is manufactured.
+## Published observations
 
-| Group | Skin | Mouth | Gills | Gut |
+**Research question:** How do the reported detection frequencies vary across fish anatomical sites, and what can these aggregate data support? The abstract lists *Oreochromis mossambicus*, *O. niloticus*, *Labeo rohita* and *Heteropneustes fossilis*, but supplies no linked fish-by-species outcomes. The report has a different species list. [Source reconciliation](docs/source_reconciliation.md)
+
+| Reported organism group | Skin | Mouth | Gills | Gut |
 |---|---:|---:|---:|---:|
 | *Staphylococcus* spp. | 27/27 (100.0%) | 27/27 (100.0%) | 15/27 (55.6%) | 22/27 (81.5%) |
 | *Salmonella* spp. | 11/27 (40.7%) | 9/27 (33.3%) | 10/27 (37.0%) | 4/27 (14.8%) |
 | *Shigella* spp. | 9/27 (33.3%) | 15/27 (55.6%) | 11/27 (40.7%) | 5/27 (18.5%) |
 
-Counts are taken from the supplied abstract; percentages here are recalculated from integers and may differ slightly from rounded source wording. [Data dictionary](docs/data_dictionary.md) · [Provenance](docs/data_provenance.md).
+Counts are from the supplied abstract; percentages are recalculated from integers. They describe **detection**, not bacterial concentration or infection risk. [Data dictionary](docs/data_dictionary.md) · [Provenance](docs/data_provenance.md)
 
-## New analysis and scientific interpretation
+## Computational analysis and figures
 
-The largest reported site range is *Staphylococcus* (100.0% versus 55.6%, **44.4 percentage points**), followed by *Shigella* (55.6% versus 18.5%, **37.0 points**) and *Salmonella* (40.7% versus 14.8%, **25.9 points**). These are descriptive contrasts. The figure below uses 95% Wilson intervals for each marginal proportion; it does not quantify paired differences.
+![Heatmap of published detection percentages by organism and anatomical site](figures/01_heatmap.png)
 
-![Published detection proportions by organism and site](figures/01_heatmap.png)
+**Figure 1.** Published detection percentages, calculated as positive count divided by the site denominator. Report results independently repeat the 12 abstract counts.
 
-![Marginal Wilson intervals](figures/03_wilson_intervals.png)
+![Marginal 95 percent Wilson intervals for each published detection proportion](figures/03_wilson_intervals.png)
 
-Additional [grouped bars](figures/02_grouped_bars.png), [site profiles](figures/04_detection_profiles.png), [workflow reconstruction](figures/05_workflow.png), and [source comparison](figures/06_source_comparison.png) are generated by code. [Figure captions](docs/figure_captions.md).
+**Figure 2.** Two-sided 95% Wilson intervals for individual marginal proportions. These are **not** intervals for paired site differences. Also view [grouped bars](figures/02_grouped_bars.png), [site profiles](figures/04_detection_profiles.png), [workflow reconstruction](figures/05_workflow.png) and [source comparison](figures/06_source_comparison.png).
 
-The abstract reports p-values of <0.001, 0.17 and 0.041 for *Staphylococcus*, *Salmonella* and *Shigella*, respectively. The original test, linked fish outcomes and code are unavailable, so those p-values are **reported, not independently reproduced**. Repeated sites on each fish require paired or clustered analysis. Marginal totals alone cannot reconstruct Cochran's Q or McNemar tests. Culture and biochemical patterns also do not verify species, virulence or infection risk. [Statistical limitations](docs/statistical_limitations.md).
+The calculated site range is **44.4 percentage points** for *Staphylococcus*, **37.0** for *Shigella* and **25.9** for *Salmonella*. The abstract reports p-values of <0.001, 0.17 and 0.041, respectively. Those remain **published claims, not reproduced tests**: multiple sites were sampled on each fish, but linked outcomes and the original test are unavailable. [Statistical limitations](docs/statistical_limitations.md)
 
-## Source discrepancy
+### A documented source discrepancy
 
-The report results and abstract agree on 22/27 *Staphylococcus* gut detections; the report discussion prints `22/25 (81.48%)`. A literal 22/25 equals 88.0%. Its Shigella discussion also attaches the wrong percentages to gut and gill counts. All readings are retained with provenance in the CSV; the primary figures use the abstract. The 22/25 sensitivity differs by **6.52 percentage points**. [Full reconciliation](docs/source_reconciliation.md).
+The report results and abstract agree on **22/27** *Staphylococcus* gut detections (81.48%). The report discussion instead prints **22/25 (81.48%)**; a literal 22/25 equals **88.00%**. Its Shigella discussion also mispairs gill and gut counts with percentages. Every reading remains source-attributed in the dataset; the primary figures use the abstract. [Full reconciliation](docs/source_reconciliation.md)
 
-## Reproduce the computational work
+## Reproduce the analysis
 
-Use Python 3.11+; the tested environment was Python 3.14.2 on Windows. With the source PDFs held privately, the committed transcription still supports a fresh-clone computational run.
+Tested with Python 3.14.2 on Windows. The original PDFs remain local and outside Git for privacy and rights review.
 
 ```powershell
 python -m venv .venv
@@ -95,12 +117,12 @@ python -m scripts.build_notebooks
 python -m scripts.build_report
 ```
 
-The modules live in `src/`; `scripts/` builds the data, notebooks, figures and report. Derived data are in `data/processed/`; figures in `figures/`; five executed notebooks in `notebooks/`; a new [PDF report](reports/computational_reanalysis.pdf) and editable report source are in `reports/`. Source-specific background, methods, audit and captions are in `docs/`. [Full reproducibility notes](docs/reproducibility.md).
+[Detailed reproducibility notes](docs/reproducibility.md)
 
 ## Citation, rights and acknowledgements
 
-**Original research:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. “Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.” Supplied conference abstract, PP–137, p. 189. Full bibliographic venue/year unverified. Cite the original only with verified metadata.
+**Original abstract:** Anpalakan T; Meddage AKMMK; Liyanage GY; Idroos FS; Manage PM. “Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.” Supplied abstract, PP–137, p. 189. A complete venue/year citation needs verification.
 
-**New software and report:** Tharuniya Anpalakan, *Kelani River fish microbiology: aggregate-data computational reanalysis* (2026), version 0.1.0; [CITATION.cff](CITATION.cff). This repository's Python software is MIT licensed; original PDFs, photographs and third-party material are outside that grant. The original university documents and abstract remain unchanged locally and excluded from Git pending privacy and redistribution review. Research preparation used AI assistance for code and editorial drafting; scientific claims remain tied to supplied sources and the listed references.
+**New software and report:** Tharuniya Anpalakan, *Kelani River fish microbiology: aggregate-data computational reanalysis*, version 0.1.0 (2026). [Software citation metadata](CITATION.cff). The MIT license applies to new Python software, not the original publication or photographs.
 
-The project acknowledges Senior Professor Pathamalal M. Manage, Mr Anjana Kelum, the Department of Zoology, Faculty of Applied Sciences, the Centre for Water Quality and Algae Research, and all original coauthors. See [project audit](docs/project_audit.md) for remaining publication checks.
+The university proposal, final report and abstract remain unchanged locally and outside Git. The eight selected photographs are tracked **for local review only**; obtain redistribution clearance before any public push. The original report contains private identifiers requiring review before release. The project acknowledges Senior Professor Pathamalal M. Manage, Mr Anjana Kelum, the Department of Zoology, Faculty of Applied Sciences, the Centre for Water Quality and Algae Research, and all original coauthors. AI assistance supported code and editorial drafting. [Project audit and release conditions](docs/project_audit.md)
