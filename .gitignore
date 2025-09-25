@@ -20,3 +20,10 @@ assets/wet_lab/*.png
 !assets/wet_lab/report_p19_fig35.jpeg
 publications/*.pdf
 original_documents/*.pdf
+# LaTeX intermediates; retain editable sources and the exported report.
+reports/latex/*.aux
+reports/latex/*.log
+reports/latex/*.out
+reports/latex/*.toc
+reports/latex/*.synctex.gz
+reports/latex/computational_reanalysis.pdf

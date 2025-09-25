@@ -15,6 +15,8 @@ This portfolio connects a **documented experimental microbiology project** with 
 
 The original research began in 2025; the computational portfolio was created in 2026. [Verified research and repository timeline](docs/research_timeline.md)
 
+**Read the reanalysis:** [LaTeX manuscript PDF](reports/computational_reanalysis_latex.pdf) · [Editable LaTeX source](reports/latex/computational_reanalysis.tex) · [Build instructions](reports/latex/README.md) · [Estimates and confidence intervals](data/processed/published_detection_intervals.csv)
+
 ## Original research and publication credit
 
 The supplied abstract is titled **“Evidence of Foodborne Pathogen Contamination in Riverine Fish from Kelani River, Sri Lanka: A Public Health Perspective.”** Its printed author order and affiliation markers are **Anpalakan T; Meddage AKMMK¹,²; Liyanage GY²,³; Idroos FS²; Manage PM²***. The printed affiliations are ¹ Faculty of Graduate Studies, University of Sri Jayewardenepura; ² Centre for Water Quality and Algae Research, Department of Zoology, University of Sri Jayewardenepura; and ³ Faculty of Urban Science and Aquatic Bioresources, University of Sri Jayewardenepura. The university proposal and report also identify the Department of Zoology, Faculty of Applied Sciences.
@@ -36,8 +38,8 @@ These are **unaltered embedded photographs from the university report**. Page an
 
 | Microscopy | Biochemical tests |
 |---|---|
-| <img src="assets/wet_lab/report_p17_fig13.jpeg" alt="Microscopic field from suspected Staphylococcus isolate" width="300"><br>**Report p17, Fig. 13.** Suspected *Staphylococcus* microscopic field. | <img src="assets/wet_lab/report_p18_fig27.jpeg" alt="Kligler iron agar tube after incubation" width="300"><br>**Report p18, Fig. 27.** Kligler iron agar after incubation in the presumptive *Salmonella* workflow. |
-| <img src="assets/wet_lab/report_p19_fig29.jpeg" alt="Microscopic field from suspected Shigella isolate" width="300"><br>**Report p19, Fig. 29.** Suspected *Shigella* microscopic field. | <img src="assets/wet_lab/report_p19_fig35.jpeg" alt="Kligler iron agar in Shigella workflow" width="300"><br>**Report p19, Fig. 35.** Kligler iron agar after incubation in the presumptive *Shigella* workflow. |
+| <img src="assets/wet_lab/report_p17_fig13.jpeg" alt="Microscopic field from suspected Staphylococcus isolate" width="300"><br>**Report p17, Fig. 13.** Suspected *Staphylococcus* microscopic field. | <img src="assets/wet_lab/report_p18_fig27.jpeg" alt="Kligler iron agar tube after incubation" height="280"><br>**Report p18, Fig. 27.** Kligler iron agar after incubation in the presumptive *Salmonella* workflow. |
+| <img src="assets/wet_lab/report_p19_fig29.jpeg" alt="Microscopic field from suspected Shigella isolate" width="300"><br>**Report p19, Fig. 29.** Suspected *Shigella* microscopic field. | <img src="assets/wet_lab/report_p19_fig35.jpeg" alt="Kligler iron agar in Shigella workflow" height="280"><br>**Report p19, Fig. 35.** Kligler iron agar after incubation in the presumptive *Shigella* workflow. |
 
 No field-collection or fish-anatomical-sampling photographs were present in the supplied PDFs. Colony appearance and biochemical reactions document reported observations; they do not independently verify species, virulence or molecular identity.
 
@@ -74,7 +76,7 @@ The first six stages belong to the original experimental research and publicatio
 | Data quality checks | [Validation module](src/data_processing.py), [automated tests](tests/test_analysis.py) |
 | Descriptive analysis and uncertainty | [Summary functions](src/descriptive_analysis.py), [Wilson intervals](src/statistical_analysis.py) |
 | Scientific visualization | [Figure generator](src/visualization.py), [figure captions](docs/figure_captions.md) |
-| Reproducible reporting | [Five executed notebooks](notebooks/), [computational reanalysis PDF](reports/computational_reanalysis.pdf), [editable source](reports/computational_reanalysis.md) |
+| Reproducible reporting | [Five executed notebooks](notebooks/), [LaTeX reanalysis PDF](reports/computational_reanalysis_latex.pdf), [editable manuscript](reports/latex/computational_reanalysis.tex), [data-driven report builder](scripts/build_latex_report.py) |
 
 ## Published observations
 
@@ -94,15 +96,31 @@ Counts are from the supplied abstract; percentages are recalculated from integer
 
 **Figure 1.** Published detection percentages, calculated as positive count divided by the site denominator. Report results independently repeat the 12 abstract counts.
 
+![Grouped bars showing published detection percentages and positive counts](figures/02_grouped_bars.png)
+
+**Figure 2.** Organ-specific detections with exact count labels. A percentage describes positive specimens, not organism concentration.
+
 ![Marginal 95 percent Wilson intervals for each published detection proportion](figures/03_wilson_intervals.png)
 
-**Figure 2.** Two-sided 95% Wilson intervals for individual marginal proportions. These are **not** intervals for paired site differences. Also view [grouped bars](figures/02_grouped_bars.png), [site profiles](figures/04_detection_profiles.png), [workflow reconstruction](figures/05_workflow.png) and [source comparison](figures/06_source_comparison.png).
+**Figure 3.** Two-sided 95% Wilson intervals for individual marginal proportions. These are **not** intervals for paired site differences.
 
-The calculated site range is **44.4 percentage points** for *Staphylococcus*, **37.0** for *Shigella* and **25.9** for *Salmonella*. The abstract reports p-values of <0.001, 0.17 and 0.041, respectively. Those remain **published claims, not reproduced tests**: multiple sites were sampled on each fish, but linked outcomes and the original test are unavailable. [Statistical limitations](docs/statistical_limitations.md)
+![Separate anatomical-site profiles for the three reported organism groups](figures/04_detection_profiles.png)
+
+**Figure 4.** Categorical anatomical profiles, shown separately for each organism group. The sites do not form a continuous numerical sequence.
+
+![Reconstructed experimental workflow and subsequent computational analysis](figures/05_workflow.png)
+
+**Figure 5.** A reconstruction of the documented study workflow. The statistical analysis shown here is the later computational extension.
+
+The calculated site range is **44.4 percentage points** for *Staphylococcus*, **37.0** for *Shigella* and **25.9** for *Salmonella*. The abstract reports **p < 0.001 for Staphylococcus, p = 0.17 for Salmonella, and p = 0.041 for Shigella**. Those remain **published claims, not reproduced tests**: multiple sites were sampled on each fish, but linked outcomes and the original test are unavailable. [Statistical limitations](docs/statistical_limitations.md)
 
 ### A documented source discrepancy
 
 The report results and abstract agree on **22/27** *Staphylococcus* gut detections (81.48%). The report discussion instead prints **22/25 (81.48%)**; a literal 22/25 equals **88.00%**. Its Shigella discussion also mispairs gill and gut counts with percentages. Every reading remains source-attributed in the dataset; the primary figures use the abstract. [Full reconciliation](docs/source_reconciliation.md)
+
+![Comparison of source readings for the conflicting denominator and Shigella percentages](figures/06_source_comparison.png)
+
+**Figure 6.** Explicit comparison of inconsistent source readings. See the [LaTeX manuscript](reports/computational_reanalysis_latex.pdf) for the full results table, Wilson formula, denominator sensitivity, original laboratory evidence, and interpretation.
 
 ## Reproduce the analysis
 
@@ -118,6 +136,14 @@ python -m pytest -q
 python -m scripts.build_notebooks
 python -m scripts.build_report
 ```
+
+For the typeset LaTeX manuscript, install **MiKTeX or TeX Live** with `pdflatex`, then run:
+
+```powershell
+python -m scripts.build_latex_report
+```
+
+This generates the numerical tables and figures from validated data, compiles the manuscript twice, and exports `reports/computational_reanalysis_latex.pdf`. The earlier compact Markdown-based report remains available as `reports/computational_reanalysis.pdf`.
 
 [Detailed reproducibility notes](docs/reproducibility.md)
 

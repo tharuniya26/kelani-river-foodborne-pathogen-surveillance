@@ -1,0 +1,13 @@
+pathogen,anatomical_site,positive_count,total_count,detection_proportion,detection_percentage,source_document,source_page,source_table_or_section,verification_status,discrepancy_notes,wilson_low,wilson_high
+Staphylococcus spp.,Skin,27,27,1.0,100.0,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.8754449702581328,1.0
+Staphylococcus spp.,Mouth,27,27,1.0,100.0,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.8754449702581328,1.0
+Staphylococcus spp.,Gills,15,27,0.5555555555555556,55.55555555555556,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.3731302451322448,0.72414141822977
+Staphylococcus spp.,Gut,22,27,0.8148148148148148,81.48148148148148,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p20 prints 22/25 but 81.48%.,0.6330131638145156,0.9181929285702346
+Salmonella spp.,Skin,11,27,0.4074074074074074,40.74074074074074,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.24514757074395552,0.592732990319353
+Salmonella spp.,Mouth,9,27,0.3333333333333333,33.333333333333336,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.18643261498715644,0.5217523949267991
+Salmonella spp.,Gills,10,27,0.3703703703703703,37.03703703703704,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.21532512960965597,0.5577076558789761
+Salmonella spp.,Gut,4,27,0.1481481481481481,14.814814814814817,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.05915927776244326,0.3247868542781298
+Shigella spp.,Skin,9,27,0.3333333333333333,33.333333333333336,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.18643261498715644,0.5217523949267991
+Shigella spp.,Mouth,15,27,0.5555555555555556,55.55555555555556,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,,0.3731302451322448,0.72414141822977
+Shigella spp.,Gills,11,27,0.4074074074074074,40.74074074074074,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p21 swaps count-percentage pairings for gills and gut.,0.24514757074395552,0.592732990319353
+Shigella spp.,Gut,5,27,0.1851851851851851,18.51851851851852,iCMA_FOOD BORNE PATHOGEN.pdf,PDF 1; printed 189,Abstract,published_abstract,Report discussion p21 swaps count-percentage pairings for gills and gut.,0.08180707142976529,0.3669868361854843
