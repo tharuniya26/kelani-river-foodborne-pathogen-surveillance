@@ -154,3 +154,5 @@ This generates the numerical tables and figures from validated data, compiles th
 **New software and report:** Tharuniya Anpalakan, *Kelani River fish microbiology: aggregate-data computational reanalysis*, version 0.1.0 (2026). [Software citation metadata](CITATION.cff). The MIT license applies to new Python software, not the original publication or photographs.
 
 The university proposal, final report and abstract remain unchanged locally and outside Git. The eight selected photographs are tracked **for private review only**; obtain redistribution clearance before any public release. The original report contains private identifiers requiring review before release. The project acknowledges Senior Professor Pathamalal M. Manage, Mr Anjana Kelum, the Department of Zoology, Faculty of Applied Sciences, the Centre for Water Quality and Algae Research, and all original coauthors. AI assistance supported code and editorial drafting. [Project audit and release conditions](docs/project_audit.md)
+
+
